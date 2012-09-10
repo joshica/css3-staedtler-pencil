@@ -3,11 +3,11 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Jovan Stojanovic - UI/UX Designer and Front-End Developer - @joshica
 
 # THANKS
 
-    <name>
+    www.initializr.com, Boilerplate,
 
 # TECHNOLOGY COLOPHON
 

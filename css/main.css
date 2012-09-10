@@ -377,6 +377,7 @@ aside {
     right: 0px;
     border:1px solid #ccc;
     background: white;
+    font-size: 90%;
 }
 
 .compitability {
@@ -387,8 +388,28 @@ aside {
 }
 
 .compitability li {
-    float:left;
-    margin-right:15px;
+    margin:5px;
+    overflow:hidden;
+}
+
+aside h4 {
+  margin: 20px 0px 0px 0px;
+}
+
+aside h4.first {
+  margin:0px;
+}
+
+ul.share {
+  list-style:none;
+  margin:0px;
+  padding:0px;
+}
+
+ul.share li {
+  display:block;
+  clear:left;
+  margin-bottom: 5px;
 }
 
 .line-bottom {

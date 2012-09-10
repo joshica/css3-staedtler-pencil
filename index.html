@@ -23,6 +23,14 @@
 	<script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
 </head>
 <body>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 	<!--[if lt IE 7]>
 	<p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
 	<![endif]-->
@@ -44,7 +52,7 @@
 	<div class="wrapper">
 		<div id="main" class="main clearfix" role="main">
 			<h1>Pure CSS3 Staedtler Pencil</h1>
-			<p>Staedtler pen made ​​with pure CSS3. made from experiments and fun. If you put on your site please post a link to the author.</p>
+			<p>Staedtler pen made ​​with pure CSS3. Made from experiments and fun. If you put on your site please post a link to the author.</p>
 			<div class="content">
 				<div class="pen-holder">
 					<div class="graph-pen"></div>
@@ -62,16 +70,20 @@
 				<div class="line-bottom"></div>
 			</div>
 			<aside>
-				<h4>Compitable with:</h4>
+				<h4 class="first">Compitable with:</h4>
 				<ul class="compitability">
-					<li class="chrome">Chrome 10+</li>
-					<li class="safari">Safari 6+</li>
+					<li>Chrome 10+</li>
+					<li>Safari 6+</li>
+					<li>Firefox 14+ with limitations</li>
 				</ul>
-				<h4>GitHub:</h4>
-				<div class="github">
-					Available on GitHub
-				</div>
-				<h4>Share this:</h4>
+				<h4>Github Repository</h4>
+				<a href="https://github.com/joshica/css3-staedtler-pencil">View on GitHub</a>
+				<h4>Spread to Everyone:</h4>
+				<ul class="share">
+					<li><a href="https://twitter.com/share" class="twitter-share-button" data-text="Staedtler pen made ​​with pure CSS3 from @joshica" data-via="joshica" data-hashtags="css3pencil">Tweet</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></li>
+					<li><div class="fb-like" data-href="http://jovanstojanovic.com/css3-stuff/css3-pencil/" data-send="false" data-layout="button_count" data-width="200" data-show-faces="false" data-font="segoe ui"></div></li>
+				</ul>
 			</aside>
 		</div> <!-- #main -->
 
